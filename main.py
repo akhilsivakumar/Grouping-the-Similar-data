@@ -6,7 +6,7 @@ import scipy.cluster.hierarchy as shc
 from sklearn.cluster import AgglomerativeClustering
 
 # Load the dataset
-data = pd.read_csv(r'D:\Dataset\shopping_data.csv')
+data = pd.read_csv('shopping_data.csv')
 
 # Display the first few rows of the dataset
 print(data.head())
